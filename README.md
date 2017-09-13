@@ -41,6 +41,7 @@ Upgrade the standard crm_claim module to add :
 
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
@@ -57,6 +58,7 @@ addon | version | summary
 [crm_rma_stock_location](crm_rma_stock_location/) | 8.0.1.0.0 | RMA Stock Location
 [product_warranty](product_warranty/) | 8.0.1.0.0 | Product warranty
 [rma](rma/) | 8.0.1.0.0 | App RMA
+
 
 Unported addons
 ---------------

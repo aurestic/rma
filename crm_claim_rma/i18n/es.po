@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rma (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-06 11:34+0000\n"
-"PO-Revision-Date: 2016-05-03 15:36+0000\n"
+"POT-Creation-Date: 2017-05-03 07:57+0000\n"
+"PO-Revision-Date: 2017-05-11 14:12+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Spanish (http://www.transifex.com/oca/OCA-rma-8-0/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -162,7 +162,7 @@ msgstr "Confirmado, esperando el producto"
 #. module: crm_claim_rma
 #: view:res.partner:crm_claim_rma.view_partner_contact_tree
 msgid "Contacts"
-msgstr ""
+msgstr "Contactos"
 
 #. module: crm_claim_rma
 #: selection:claim.line,state:0
@@ -232,7 +232,7 @@ msgstr ""
 #. module: crm_claim_rma
 #: help:claim.line,message_last_post:0 help:stock.move,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr ""
+msgstr "Fecha del último mensaje publicado en el registro."
 
 #. module: crm_claim_rma
 #: model:crm.case.categ,name:crm_claim_rma.categ_claim20
@@ -258,7 +258,7 @@ msgstr "Artículo diferente"
 #: field:claim_make_picking.wizard,display_name:0
 #: field:substate.substate,display_name:0
 msgid "Display Name"
-msgstr ""
+msgstr "Nombre mostrado"
 
 #. module: crm_claim_rma
 #: selection:claim.line,state:0
@@ -302,7 +302,7 @@ msgstr "Expectativa de ingreso"
 #: selection:claim.line,warning:0
 #, python-format
 msgid "Expired"
-msgstr ""
+msgstr "Expirado"
 
 #. module: crm_claim_rma
 #: view:crm.claim:crm_claim_rma.crm_claim_rma_form_view
@@ -313,7 +313,7 @@ msgstr "Seguimiento"
 #: field:claim.line,message_follower_ids:0
 #: field:stock.move,message_follower_ids:0
 msgid "Followers"
-msgstr ""
+msgstr "Seguidores"
 
 #. module: crm_claim_rma
 #: model:crm.case.categ,name:crm_claim_rma.categ_claim13
@@ -338,14 +338,14 @@ msgstr ""
 #. module: crm_claim_rma
 #: selection:claim.line,priority:0
 msgid "High"
-msgstr ""
+msgstr "Alto"
 
 #. module: crm_claim_rma
 #: help:claim.line,message_summary:0 help:stock.move,message_summary:0
 msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
 "directly in html format in order to be inserted in kanban views."
-msgstr ""
+msgstr "Contiene el resumen del chatter (nº de mensajes, ...). Este resumen está directamente en formato html para ser insertado en vistas kanban."
 
 #. module: crm_claim_rma
 #: field:claim.line,id:0 field:claim_make_picking.wizard,id:0
@@ -356,7 +356,7 @@ msgstr "ID"
 #. module: crm_claim_rma
 #: help:claim.line,message_unread:0 help:stock.move,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr ""
+msgstr "Si se marca los nuevos mensajes requerirán su atención."
 
 #. module: crm_claim_rma
 #: help:claim.line,warning:0
@@ -416,14 +416,14 @@ msgstr ""
 #. module: crm_claim_rma
 #: field:claim.line,message_last_post:0 field:stock.move,message_last_post:0
 msgid "Last Message Date"
-msgstr ""
+msgstr "Fecha del último mensaje"
 
 #. module: crm_claim_rma
 #: field:claim.line,__last_update:0
 #: field:claim_make_picking.wizard,__last_update:0
 #: field:substate.substate,__last_update:0
 msgid "Last Modified on"
-msgstr ""
+msgstr "Última modificación el"
 
 #. module: crm_claim_rma
 #: field:claim.line,write_uid:0 field:claim_make_picking.wizard,write_uid:0
@@ -490,7 +490,7 @@ msgstr "Mercancía no recibida"
 #. module: crm_claim_rma
 #: field:claim.line,message_ids:0 field:stock.move,message_ids:0
 msgid "Messages"
-msgstr ""
+msgstr "Mensajes"
 
 #. module: crm_claim_rma
 #: help:claim.line,message_ids:0 help:stock.move,message_ids:0
@@ -530,7 +530,7 @@ msgstr ""
 #. module: crm_claim_rma
 #: field:claim.line,display_name:0
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #. module: crm_claim_rma
 #: view:crm.claim:crm_claim_rma.crm_claim_rma_form_view
@@ -555,7 +555,7 @@ msgstr "Sin Stock"
 #. module: crm_claim_rma
 #: selection:claim.line,priority:0
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. module: crm_claim_rma
 #: selection:claim.line,priority:0
@@ -577,7 +577,7 @@ msgstr "No especificado"
 #. module: crm_claim_rma
 #: field:claim.line,number:0
 msgid "Number"
-msgstr ""
+msgstr "Número"
 
 #. module: crm_claim_rma
 #: selection:claim.line,claim_origin:0
@@ -641,7 +641,7 @@ msgstr "Error de precio"
 #: view:claim.line:crm_claim_rma.view_crm_claim_lines_filter
 #: field:claim.line,priority:0
 msgid "Priority"
-msgstr ""
+msgstr "Prioridad"
 
 #. module: crm_claim_rma
 #: help:claim.line,priority:0
@@ -839,7 +839,7 @@ msgstr "Seleccionar líneas para recogida/envío"
 #. module: crm_claim_rma
 #: field:crm.claim,sequence:0
 msgid "Sequence"
-msgstr ""
+msgstr "Secuencia"
 
 #. module: crm_claim_rma
 #: field:claim.line,prodlot_id:0
@@ -891,7 +891,7 @@ msgstr "Sub-estado"
 #. module: crm_claim_rma
 #: field:claim.line,message_summary:0 field:stock.move,message_summary:0
 msgid "Summary"
-msgstr ""
+msgstr "Resumen"
 
 #. module: crm_claim_rma
 #: selection:claim.line,applicable_guarantee:0
@@ -999,7 +999,7 @@ msgstr "Precio de venta unitario del producto. Auto-completado si la devolución
 #. module: crm_claim_rma
 #: field:claim.line,message_unread:0 field:stock.move,message_unread:0
 msgid "Unread Messages"
-msgstr ""
+msgstr "Mensajes sin leer"
 
 #. module: crm_claim_rma
 #: code:addons/crm_claim_rma/models/claim_line.py:70
@@ -1011,7 +1011,7 @@ msgstr ""
 #. module: crm_claim_rma
 #: selection:claim.line,priority:0
 msgid "Very High"
-msgstr ""
+msgstr "Muy alto"
 
 #. module: crm_claim_rma
 #: field:crm.claim,warehouse_id:0

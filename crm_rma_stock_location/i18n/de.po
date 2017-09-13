@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rma (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-06 11:34+0000\n"
-"PO-Revision-Date: 2016-05-03 15:37+0000\n"
+"POT-Creation-Date: 2016-09-18 05:22+0000\n"
+"PO-Revision-Date: 2016-10-04 09:42+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: German (http://www.transifex.com/oca/OCA-rma-8-0/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,7 @@ msgstr "Ziel-Standort"
 #. module: crm_rma_stock_location
 #: field:claim.make.picking.from.picking.wizard,display_name:0
 msgid "Display Name"
-msgstr ""
+msgstr "Anzeigename"
 
 #. module: crm_rma_stock_location
 #: field:claim.make.picking.from.picking.wizard,id:0
@@ -78,7 +78,7 @@ msgstr "ID"
 #. module: crm_rma_stock_location
 #: field:claim.make.picking.from.picking.wizard,__last_update:0
 msgid "Last Modified on"
-msgstr ""
+msgstr "Zuletzt geändert am"
 
 #. module: crm_rma_stock_location
 #: field:claim.make.picking.from.picking.wizard,write_uid:0

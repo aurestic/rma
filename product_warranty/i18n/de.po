@@ -3,13 +3,13 @@
 # * product_warranty
 # 
 # Translators:
-# Rudolf Schnapka <rs@techno-flex.de>, 2016
+# Rudolf Schnapka <rs@techno-flex.de>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: rma (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-06 11:34+0000\n"
-"PO-Revision-Date: 2016-05-03 15:37+0000\n"
+"POT-Creation-Date: 2017-07-12 13:59+0000\n"
+"PO-Revision-Date: 2017-07-12 14:09+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: German (http://www.transifex.com/oca/OCA-rma-8-0/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -26,6 +26,12 @@ msgstr "Aktiver Lieferant"
 #. module: product_warranty
 #: model:ir.model,name:product_warranty.model_res_company
 msgid "Companies"
+msgstr "Unternehmen"
+
+#. module: product_warranty
+#: code:addons/product_warranty/models/product_supplierinfo.py:33
+#, python-format
+msgid "Company"
 msgstr "Unternehmen"
 
 #. module: product_warranty
@@ -53,7 +59,7 @@ msgstr "Vorgabeanschrift, an die der Kunde zurück geschickter Produkte adressie
 #. module: product_warranty
 #: field:return.instruction,display_name:0
 msgid "Display Name"
-msgstr ""
+msgstr "Anzeigename"
 
 #. module: product_warranty
 #: field:return.instruction,id:0
@@ -99,7 +105,7 @@ msgstr "Ist dieser Lieferant noch aktiv, nur zur Information"
 #. module: product_warranty
 #: field:return.instruction,__last_update:0
 msgid "Last Modified on"
-msgstr ""
+msgstr "Zuletzt geändert am"
 
 #. module: product_warranty
 #: field:return.instruction,write_uid:0
@@ -110,6 +116,12 @@ msgstr "Zuletzt aktualisiert durch"
 #: field:return.instruction,write_date:0
 msgid "Last Updated on"
 msgstr "Zuletzt aktualisiert am"
+
+#. module: product_warranty
+#: code:addons/product_warranty/models/product_supplierinfo.py:35
+#, python-format
+msgid "Other"
+msgstr "Andere"
 
 #. module: product_warranty
 #: field:product.supplierinfo,warranty_duration:0
@@ -141,6 +153,12 @@ msgid "Return type"
 msgstr "Art der Retoure"
 
 #. module: product_warranty
+#: code:addons/product_warranty/models/product_supplierinfo.py:34
+#, python-format
+msgid "Supplier"
+msgstr "Lieferant"
+
+#. module: product_warranty
 #: field:return.instruction,name:0
 msgid "Title"
 msgstr "Titel"
@@ -169,7 +187,7 @@ msgstr "Wo der Kunde Produkt(e) retoure schicken soll, wenn Gewährleistungs-Ret
 #: help:product.supplierinfo,warranty_return_address:0
 msgid ""
 "Where the goods should be returned  (computed field based on other infos.)"
-msgstr ""
+msgstr "Wohin die Ware zurückgeliefert werden soll (aus anderen Infos abgeleitetes Feld)"
 
 #. module: product_warranty
 #: help:product.supplierinfo,warranty_return_partner:0
