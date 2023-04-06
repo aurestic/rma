@@ -34,10 +34,12 @@ class StockProductionLot(models.Model):
     lot_complete_name = fields.Char(compute="_get_lot_complete_name",
                                     string="Complete Lot Name")
 
+    @api.multi
     @api.depends('invoice_line_id', 'name')
     def _get_lot_complete_name(self):
-        name = _("%s - Lot Number: %s - %s") % \
-            (self.invoice_line_id.invoice_id.number,
-             self.name or _('No lot number'),
-             self.invoice_line_id.name)
-        return name
+        for lot in self:
+            lot.lot_complete_name = _("%s - Lot Number: %s - %s") % (
+                lot.invoice_line_id.invoice_id.number,
+                lot.name or _('No lot number'),
+                lot.invoice_line_id.name,
+            )
